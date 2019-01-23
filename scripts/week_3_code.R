@@ -63,3 +63,6 @@ str(heights)
 mean(heights, na.rm = TRUE) #this code strips out the NA so you can still get a mean
 is.na(heights) #tells you which values are NA
 na.omit(heights)
+
+
+#Need to commit this
