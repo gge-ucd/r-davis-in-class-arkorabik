@@ -24,4 +24,5 @@ hist(hindfoot_lengths) #vector doesn't work b/c it's a character
 hist(surveys_long_feet$hindfoot_length) #column in data frame works b/c it's still numeric
 
 # 7. Commit & Push the R script to GitHub - check your repository on GitHub and make sure your script is there. 
+
   
