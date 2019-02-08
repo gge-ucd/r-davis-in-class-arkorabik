@@ -111,5 +111,4 @@ surveys_scaled <- surveys %>%
   group_by(species) %>% 
   mutate(scaled_weight = scale(weight)) %>% 
   filter(!is.na(weight)) 
-
 ### The relatively biggest critter is Chaetodipus penicillatus with a relative weight of 15.493832, and the relatively smallest critter was Dipodomys merriami with a relative weight of -4.856850. These results are interesting, because neither of these species were the biggest or smallest species overall.
